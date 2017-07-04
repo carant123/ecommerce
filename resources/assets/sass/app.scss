@@ -1,0 +1,149 @@
+
+// Fonts
+// @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.circle-shopping-cart{
+	background-color: #232980;
+	border-radius:50%;
+	padding:1em 1em;
+}
+
+.products-container{
+	.product{
+		margin-top: 1em;
+	}
+}
+
+.product-avatar{
+	max-width: 100%;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.large-padding{
+	padding: 10px 15px;
+}
+
+.big-padding{
+	padding:30px;
+}
+
+.blue-grey{
+	background-color: #37474f;
+}
+
+.white-text{
+	color:white;
+}
+
+.top-space{
+	margin-top: 1em;
+}
+
+.white{
+	background-color:white;
+}
+
+.table{
+	background-color: white;
+}
+
+.red-text{
+	color:rgb(200,50,50);
+}
+
+.floating{
+	position:fixed;
+	bottom:2em;
+	right:2em;
+	z-index:100;
+}
+
+.inline-block{
+	display:inline-block;
+}
+
+.no-transform{
+	text-transform: none;
+}
+
+.product{
+	width: 600px;
+	max-width: 100%;
+	padding: 1em;
+	position:relative;
+
+	h1{
+		padding-bottom: 10px;
+		border-bottom:solid 1px;
+	}
+
+	.actions{
+		right: 1em;
+		top:10;
+	}
+}
+
+
+.absolute{
+	position:absolute;
+}
+
+// Status order
+
+.creado{
+	background-color: #d4e157;
+}
+
+.sale-data{
+	padding:1em;
+	text-align: center;
+	border-right: solid 1px #222;
+	span{
+		display: block;
+		font-size: 2.2em;
+		color: #3f51b5;
+	}
+}
+
+.highlight{
+	-webkit-animation: hightlight 1.5s;
+	animation: hightlight 1.5s;
+}
+
+@-webkit-keyframes hightlight {
+	50% {
+		background-color: #ffff00;
+		color:black;
+	}
+	100% {
+		background-color: inherit;
+	}
+
+}
+
+@keyframes hightlight {
+	50% {
+		background-color: #ffff00;
+		color: black;
+	}
+	100% {
+		background-color: inherit;
+	}
+}
